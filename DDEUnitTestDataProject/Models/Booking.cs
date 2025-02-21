@@ -22,11 +22,15 @@ namespace DDEUnitTestDataProject.Models
         /// <returns>The discount value as a double, or throws an exception if inputs are invalid.</returns>
         public static double DiscountValue(object totalPrice, object percentageDiscount, object isValidPromoCode)
         {
-            // Validation (params acceptan object so i can check after and not block on params entry in the method)
-            if (totalPrice is not double || (double)totalPrice <= 0)
-                throw new ArgumentException("Erreur : totalPrice doit être un nombre positif.");
-            if (percentageDiscount is not double || (double)percentageDiscount < 0)
-                throw new ArgumentException("Erreur : percentageDiscount doit être un nombre positif.");
+            // Validation (params accept an object so i can check after and not block on params entry in the method)
+            if (totalPrice is not double)
+                throw new ArgumentException("Erreur : totalPrice doit être un nombre");
+            if ((double)totalPrice < 0.0)
+                throw new ArgumentException("Erreur : totalPrice ne peut pas être négatif.");
+            if ((double)percentageDiscount < 0)
+                throw new ArgumentException("Erreur : percentageDiscount ne peut pas être négatif.");
+            if(percentageDiscount is not double)
+                throw new ArgumentException("Erreur : percentageDiscount doit être un nombre");
             if (isValidPromoCode is not bool)
                 throw new ArgumentException("Erreur : isValidPromoCode doit être un booléen.");
             double price = (double)totalPrice;
@@ -88,20 +92,20 @@ namespace DDEUnitTestDataProject.Models
             // Validation (params acceptan object so i can check after and not block on params entry in the method)
             if (price is not double originalPrice)
             {
-                throw new ArgumentException("Erreur : price doit être un nombre positif.");
+                throw new ArgumentException("Erreur : price doit être un nombre");
             }
             if (discountValue is not double discount)
             {
-                throw new ArgumentException("Erreur : discountValue doit être un nombre positif.");
+                throw new ArgumentException("Erreur : discountValue doit être un nombre");
             }
             // no neg values
             if (originalPrice < 0)
             {
-                throw new ArgumentException("Erreur : price ne peut pas être négatif.");
+                throw new ArgumentException("Erreur : price ne peut pas être négatif");
             }
             if (discount < 0)
             {
-                throw new ArgumentException("Erreur : discountValue ne peut pas être négatif.");
+                throw new ArgumentException("Erreur : discountValue ne peut pas être négatif");
             }
             double finalPrice = originalPrice - discount;
             if (finalPrice < 0)

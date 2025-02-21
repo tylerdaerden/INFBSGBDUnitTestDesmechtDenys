@@ -144,7 +144,7 @@ namespace AppUnitTests.ModelTests
         [InlineData("0475-12-34-56")]
         [InlineData("0475/12/34/56")]
 
-        public void CheckPhone_ShoudReturnTrue_WithValidPhoneNumbers(string phoneNumbers)
+        public void CheckPhone_ShouldReturnTrue_WithValidPhoneNumbers(string phoneNumbers)
         {
             //Arrange
             var phoneNumbersToTest = phoneNumbers;
