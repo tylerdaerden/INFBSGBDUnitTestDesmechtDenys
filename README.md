@@ -2,6 +2,7 @@
 
 ![Coverage](./CoverageReport/badge.svg)
 
+
 ## 📜 Description
 Projet de Testing scolaire.
 Ce projet .NET 8 avec C# 12 inclut des tests unitaires pour les méthodes reçues dans le cadre du Cours D'INFB de Mr Poulet 
