@@ -221,8 +221,8 @@ var assemblies = [
   {
     "name": "DDEUnitTestDataProject",
     "classes": [
-      { "name": "DDEUnitTestDataProject.App", "rp": "DDEUnitTestDataProject_App.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 80, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "DDEUnitTestDataProject.MainWindow", "rp": "DDEUnitTestDataProject_MainWindow.html", "cl": 0, "ucl": 10, "cal": 10, "tl": 112, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "DDEUnitTestDataProject.App", "rp": "DDEUnitTestDataProject_App.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 79, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "DDEUnitTestDataProject.MainWindow", "rp": "DDEUnitTestDataProject_MainWindow.html", "cl": 0, "ucl": 10, "cal": 10, "tl": 111, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "DDEUnitTestDataProject.Models.Booking", "rp": "DDEUnitTestDataProject_Booking.html", "cl": 55, "ucl": 5, "cal": 60, "tl": 118, "cb": 36, "tb": 40, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "DDEUnitTestDataProject.Models.User", "rp": "DDEUnitTestDataProject_User.html", "cl": 28, "ucl": 2, "cal": 30, "tl": 59, "cb": 15, "tb": 16, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
