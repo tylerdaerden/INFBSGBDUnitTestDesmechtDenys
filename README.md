@@ -1,6 +1,7 @@
 # DDEUnitTestDataProject
 
-![Coverage](./CoverageReport/badge_linecoverage.svg)
+![Coverage](./AppUnitTests/CoverageReport/badge_linecoverage.svg)
+
 
 
 
