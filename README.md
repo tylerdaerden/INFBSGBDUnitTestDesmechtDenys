@@ -1,6 +1,11 @@
 # DDEUnitTestDataProject
 
+![Coverage](./AppUnitTests/CoverageReport/badge_combined.svg)
 ![Coverage](./AppUnitTests/CoverageReport/badge_linecoverage.svg)
+![Coverage](./AppUnitTests/CoverageReport/badge_branchcoverage.svg)
+![Coverage](./AppUnitTests/CoverageReport/badge_fullmethodcoverage.svg)
+![Coverage](./AppUnitTests/CoverageReport/badge_methodcoverage.svg)
+
 
 
 
