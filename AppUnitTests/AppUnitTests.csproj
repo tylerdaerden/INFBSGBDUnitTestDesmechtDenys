@@ -34,12 +34,18 @@
 	<Target Name="Coverage" AfterTargets="Test">
 		<!-- Nettoyage des anciens rapports -->
 		<Exec Command="dotnet clean" />
-
 		<!-- Exécution des tests avec collecte de la couverture -->
 		<Exec Command="dotnet test --collect:'XPlat Code Coverage'" />
-
 		<!-- Génération du rapport HTML + Badge -->
 		<Exec Command="reportgenerator -reports:TestResults/*/coverage.cobertura.xml -targetdir:CoverageReport -reporttypes:Html;Badges" />
 	</Target>
+
+	<Target Name="CleanCoverage" BeforeTargets="Clean">
+		<!-- Nettoyage des anciens rapports sauf les résultats de couverture -->
+		<Exec Command="Remove-Item -Recurse -Force CoverageReport" ContinueOnError="true"/>
+		<Exec Command="Remove-Item -Recurse -Force TestResults/* -Exclude *.cobertura.xml" ContinueOnError="true"/>
+	</Target>
+
+
 
 </Project>
