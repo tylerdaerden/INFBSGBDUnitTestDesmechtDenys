@@ -2,16 +2,12 @@
 
 **Couverture globale :**  
 ![Coverage](./AppUnitTests/CoverageReport/badge_combined.svg)
-
 **Lignes couvertes :**  
 ![Coverage](./AppUnitTests/CoverageReport/badge_linecoverage.svg)
-
 **Branches couvertes :**  
 ![Coverage](./AppUnitTests/CoverageReport/badge_branchcoverage.svg)
-
 **Méthodes entièrement couvertes :**  
 ![Coverage](./AppUnitTests/CoverageReport/badge_fullmethodcoverage.svg)
-
 **Méthodes partiellement couvertes :**  
 ![Coverage](./AppUnitTests/CoverageReport/badge_methodcoverage.svg)
 
