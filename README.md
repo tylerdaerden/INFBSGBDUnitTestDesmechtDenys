@@ -1,6 +1,7 @@
 # DDEUnitTestDataProject
 
-![Coverage](./CoverageReport/badge.svg)
+![Coverage](./CoverageReport/badge_linecoverage.svg)
+
 
 
 ## 📜 Description
