@@ -1,5 +1,6 @@
-
 # DDEUnitTestDataProject
+
+![Coverage](./CoverageReport/badge.svg)
 
 ## 📜 Description
 Projet de Testing scolaire.
