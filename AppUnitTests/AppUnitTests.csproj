@@ -31,6 +31,7 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+	<!-- Commande de génération et exécution Tests + MAJ du Badge ↓↓↓ -->
 	<Target Name="Coverage" AfterTargets="Test">
 		<!-- Nettoyage des anciens rapports -->
 		<Exec Command="dotnet clean" />
@@ -39,6 +40,5 @@
 		<!-- Génération du rapport HTML + Badge -->
 		<Exec Command="reportgenerator -reports:TestResults/*/coverage.cobertura.xml -targetdir:CoverageReport -reporttypes:Html,Badges" />
 	</Target>
-
 
 </Project>
